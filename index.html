@@ -1,65 +1,10 @@
 <!DOCTYPE html>
-
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Deployed Successfully</title>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sample Static App</title>
 <style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: 'Segoe UI', Arial, sans-serif;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #334155 100%);
-    color: #f1f5f9;
-  }
-  .card {
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(255,255,255,0.12);
-    backdrop-filter: blur(10px);
-    padding: 48px 56px;
-    border-radius: 16px;
-    text-align: center;
-    max-width: 480px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
-  }
-  .badge {
-    display: inline-block;
-    background: #22c55e;
-    color: #052e16;
-    font-weight: 600;
-    font-size: 13px;
-    padding: 6px 14px;
-    border-radius: 999px;
-    margin-bottom: 20px;
-  }
-  h1 { font-size: 28px; margin-bottom: 12px; }
-  p { color: #cbd5e1; line-height: 1.6; margin-bottom: 8px; }
-  .meta {
-    margin-top: 24px;
-    padding-top: 20px;
-    border-top: 1px solid rgba(255,255,255,0.1);
-    font-size: 13px;
-    color: #94a3b8;
-  }
-  code {
-    background: rgba(255,255,255,0.1);
-    padding: 2px 8px;
-    border-radius: 6px;
-    font-size: 13px;
-  }
-</style>
-</head>
-<body>
-  <div class="card">
-    <span class="badge">● LIVE</span>
-    <h1>Deployment Successful 🚀</h1>
-    <p>The app is Deployed through Automated CI/CD Pipeline</p>
-    <p><code>GitHub → Jenkins → Docker → Live</code></p>
-    <div class="meta">Automated Deployed App — Test App</div>
-  </div>
-</body>
-</html>
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#0f172a;color:#e2e8f0;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.box{text-align:center;padding:40px;border:1px solid #334155;border-radius:14px;background:#1e293b}
+h1{margin:0 0 8px}p{color:#94a3b8}
+.tag{display:inline-block;margin-top:14px;padding:4px 12px;border-radius:999px;background:#1d4ed8;font-size:12px}
+</style></head>
+<body><div class="box"><h1>Sample Static App</h1><p>Deployed with DeployForge (uses its own Dockerfile)</p><span class="tag">static + Dockerfile</span></div></body></html>
